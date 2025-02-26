@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1DA1F2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main Container */
+main {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+
+/* Form Styles */
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 80%;
+}
+#label {
+    align-self: flex-start;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+/* Input */
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    
+}
+
+/* Button */
+button {
+    display: block;
+    background-color: #007BFF; /* Accessible blue */
+    color: #ffffff;
+    align-self: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#artic {
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fad3d3;
+}
+
+th, td {
+    border: 1px solid #0c0c0c;
+    padding: 10px;
+    text-align: center;
+    color: #333333;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Accessibility */
+button:focus,
+input:focus {
+    outline: 2px solid #ffcc00; /* High-contrast focus outline */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    input[type="number"], button {
+        width: 100%;
+    }
+}
