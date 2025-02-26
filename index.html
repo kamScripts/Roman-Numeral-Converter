@@ -14,7 +14,7 @@
                 <legend id="form-desc">Convert numbers into Roman numerals</legend>
                 
                 <label id="label" for="number">Enter a number:</label>
-                <input id="number" type="number" aria-labelledby="label">
+                <input id="number" type="number" value="" aria-labelledby="label">
                 
                 <button id="convert-btn" type="button" aria-label="Convert number to Roman numeral">
                     Convert
@@ -22,41 +22,39 @@
             </fieldset>
         </form>
 
-        <p id="output" aria-live="polite"></p>
+        <div id="output" aria-live="polite"></div>
+        <article>
+            <h2 id="roman-title">Roman Numerals</h2>
+            <p id="artic" aria-labelledby="roman-title">
+                Roman numerals are based on seven symbols and can be written using various 
+                combinations to represent Arabic numerals.
+            </p>
+            
+            <table role="table">
+                <thead>
+                    <tr role="row">
+                        <th scope="col">Arabic Numeral</th>
+                        <th scope="col">Roman Numeral</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr role="row"><td>1000</td><td>M</td></tr>
+                    <tr role="row"><td>900</td><td>CM</td></tr>
+                    <tr role="row"><td>500</td><td>D</td></tr>
+                    <tr role="row"><td>400</td><td>CD</td></tr>
+                    <tr role="row"><td>100</td><td>C</td></tr>
+                    <tr role="row"><td>90</td><td>XC</td></tr>
+                    <tr role="row"><td>50</td><td>L</td></tr>
+                    <tr role="row"><td>40</td><td>XL</td></tr>
+                    <tr role="row"><td>10</td><td>X</td></tr>
+                    <tr role="row"><td>9</td><td>IX</td></tr>
+                    <tr role="row"><td>5</td><td>V</td></tr>
+                    <tr role="row"><td>4</td><td>IV</td></tr>
+                    <tr role="row"><td>1</td><td>I</td></tr>
+                </tbody>
+            </table>
+        </article>
 
-        <section id="description">
-            <article>
-                <h2 id="roman-title">Roman Numerals</h2>
-                <p id="artic" aria-labelledby="roman-title">
-                    Roman numerals are based on seven symbols and can be written using various 
-                    combinations to represent Arabic numerals.
-                </p>
-                
-                <table role="table">
-                    <thead>
-                        <tr role="row">
-                            <th scope="col">Arabic Numeral</th>
-                            <th scope="col">Roman Numeral</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr role="row"><td>1000</td><td>M</td></tr>
-                        <tr role="row"><td>900</td><td>CM</td></tr>
-                        <tr role="row"><td>500</td><td>D</td></tr>
-                        <tr role="row"><td>400</td><td>CD</td></tr>
-                        <tr role="row"><td>100</td><td>C</td></tr>
-                        <tr role="row"><td>90</td><td>XC</td></tr>
-                        <tr role="row"><td>50</td><td>L</td></tr>
-                        <tr role="row"><td>40</td><td>XL</td></tr>
-                        <tr role="row"><td>10</td><td>X</td></tr>
-                        <tr role="row"><td>9</td><td>IX</td></tr>
-                        <tr role="row"><td>5</td><td>V</td></tr>
-                        <tr role="row"><td>4</td><td>IV</td></tr>
-                        <tr role="row"><td>1</td><td>I</td></tr>
-                    </tbody>
-                </table>
-            </article>
-        </section>
     </main>
 
     <footer></footer>
