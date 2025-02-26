@@ -1,6 +1,7 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 20px;
     background-color: #1DA1F2;
     margin: 0;
     padding: 0;
@@ -82,24 +83,21 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
-    background-color: #fad3d3;
+    
 }
 
 th, td {
     border: 1px solid #0c0c0c;
     padding: 10px;
     text-align: center;
-    color: #333333;
 }
 
-th {
-    background-color: #f4f4f4;
-}
+
 
 /* Accessibility */
 button:focus,
 input:focus {
-    outline: 2px solid #ffcc00; /* High-contrast focus outline */
+    outline: 2px solid #ffcc00; 
 }
 
 /* Responsive Design */
